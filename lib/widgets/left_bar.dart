@@ -4,7 +4,7 @@ import 'package:flutter_task1/constants/app_constants.dart';
 class LeftBar extends StatelessWidget {
   final double barWidth;
 
-  const LeftBar({Key key, @required this.barWidth})
+  const LeftBar({Key? key, required this.barWidth})
       : super(key: key); //constructor
   @override
   Widget build(BuildContext context) {

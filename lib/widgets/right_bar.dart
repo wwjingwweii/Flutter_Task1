@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_task1/constants/app_constants.dart';
 
-class LeftBar extends StatelessWidget {
+class RightBar extends StatelessWidget {
   final double barWidth;
 
-  const LeftBar({Key key, @required this.barWidth})
-      : super(key: key); //constructor
+  const RightBar({required this.barWidth}); //constructor
   @override
   Widget build(BuildContext context) {
     return Row(
